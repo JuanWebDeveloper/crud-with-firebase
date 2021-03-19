@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #f3f3f3;
+}
+
+.form, .cardsSingle {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.form form input,
+.form form textarea {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #2054ff;
+    background: transparent;
+}
+
+.form form input:focus,
+.form form textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2054ff;
+    background: transparent;
+}
+
+.form form textarea {
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.form .btnTask {
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #2054ff;
+}
+
+.cardsSingle h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #2054ff;
+}
+
+.cardsSingle p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444;
+}
